@@ -8,4 +8,7 @@ ffmpeg -f pulse -i $audioin -ac 1 -f mp3 - | ffplay - |  ffmpeg -f x11grab -thre
        -f pulse -i $audioout -ac 2 \
        -filter_complex 'overlay=main_w-overlay_w:main_h-overlay_h:format=yuv444' \
        -vcodec libx264 -preset ultrafast -qp 0 \
-       "bloatless-videos/$1.mp4"
+       -f "mp4" "bloatless-videos/$1.largetmp.mp4"
+echo Scaling for smaller file size.. please wait.
+ffmpeg -i "bloatless-videos/$1.largetmp.mp4" -vf "scale=iw*.5:ih*.5" "bloatless-videos/$1.smallfinal.mp4"
+rm "bloatless-videos/$1.largetmp.mp4"
