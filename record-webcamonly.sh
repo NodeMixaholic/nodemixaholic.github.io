@@ -8,5 +8,3 @@ ffmpeg -f pulse -i $audioin -ac 1 -f mp3 - | ffplay - |  ffmpeg -f v4l2 -thread_
        -f pulse -i $audioout -ac 2 \
        -vcodec libx264 -preset ultrafast -qp 0 \
        "bloatless-videos/$1.mp4"
-       
-./update-videos-directory.sh
