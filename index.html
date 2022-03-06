@@ -6,6 +6,18 @@
 	<meta name="generator" content="RocketCake">
 	<title>NodeMixaholic</title>
 	<link rel="stylesheet" type="text/css" href="index_html.css">
+	<script>
+		//Good, simple implementation of a Beaumont radio station (KYKR 95.1)
+		var patchCheck = false
+		function onPatchMClick() {
+			if (patchCheck == false) {
+				var audio = new Audio('https://stream.revma.ihrhls.com/zc2205');
+				audio.play();
+				document.getElementById("pmannoyance").textContent = "🤡I warned you.🤡"
+				patchCheck = true
+			}
+		}
+	</script>
 </head>
 <body>
 <div class="textstyle1">
@@ -96,7 +108,7 @@
 <div class="textstyle1"><span class="textstyle8"><br/><br/></span></div>
 <div class="textstyle3"><img src="imgs/bobby_beach.png" id="img_54323429" alt="Bobby Hill from the TV show &quot;King of the Hill&quot; at the beach." title="" /></div>
 <div class="textstyle1"><span class="textstyle8"><br/><br/></span></div>
-<div class="textstyle3"><span class="textstyle9">Have a great and safe life! </span><span class="textstyle8"><br/><br/></span><span class="textstyle10">&quot;Find a balance between freedom, comfort, and flexibility; as there is no such thing as full freedom.&quot;<br/>Samuel Lord</span></div>
+<div class="textstyle3"><span class="textstyle9">Have a great and safe life! <button id="pmannoyance" onclick="onPatchMClick()">do not click this sister. 🔫🤠</button> </span><span class="textstyle8"><br/><br/></span><span class="textstyle10">&quot;Find a balance between freedom, comfort, and flexibility; as there is no such thing as full freedom.&quot;<br/>Samuel Lord</span></div>
 <div class="textstyle1"></div>
 <div style="clear:both"></div></div></div>  </div>
 <div class="textstyle1">
