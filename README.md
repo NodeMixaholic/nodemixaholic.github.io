@@ -8,8 +8,6 @@
 Note that ALL IMAGES, MARKDOWN, ANYTHING IN THE "imgs" DIRECTORY, AND NON-PROGRAMATIC/NON-SCRIPT TEXT FILES IN THIS REPO are NOT licensed under the MIT LICENSE, their copyright is hereby subject to their owner; as well as any trademarks.
 
 
-## How to list devices to use with recording scripts
+## Note.
 
-```
-pactl list | grep -A2 'Source #' | grep 'Name: ' | cut -d" " -f2
-```
+record.sh and record-webcamonly.sh have a new home! See my lightrecorder repo.
