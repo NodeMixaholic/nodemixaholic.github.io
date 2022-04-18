@@ -1,2 +1,6 @@
-# Notice
-This uses my rss-generator project, and it's source is in a different repo. ( here: https://github.com/NodeMixaholic/rss-generator/ )
+# rss-generator
+Easy to use bash scripts that generate neat RSS feeds for you. Open source.
+
+## Dependencies
+A basic GNU/Linux system.
+BASH.

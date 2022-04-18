@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?> <rss version="2.0"> <channel> <title>NodeMixaholic Oeaps</title> <link>https://nodemixaholic.com</link> <description>Oeaps = Tweets + Poodletooth</description> <language>en-us</language>     <item>
+        <title>Welcome to the new site! (Version 2)</title>
+        <author>nicetry@example.com</author>
+        <description>Welcome!
+
+I am a cool dude who likes tech.
+
+Read my site for more info.
+
+Have a great night! :-)</description>
+        <pubDate>Sun, 17 Apr 2022 22:18:07 -0500</pubDate>
+    </item></channel>      </rss>
