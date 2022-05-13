@@ -1,0 +1,33 @@
+User-Agent: Googlebot
+Disallow: /private/*
+
+User-Agent: Googlebot-Image
+Disallow: /private/*
+
+User-Agent: MSNBot
+Disallow: /private/*
+
+User-Agent: Slurp
+Disallow: /private/*
+
+User-Agent: Lycos
+Disallow: /private/*
+
+User-Agent: Seekbot
+Disallow: /private/*
+
+User-Agent: Sistrix
+Disallow: /private/*
+
+User-Agent: SearchmetricsBot
+Disallow: /private/*
+
+User-Agent: BacklinkCrawler
+Disallow: /private/*
+
+User-Agent: SEOkicks-Robot
+Disallow: /private/*
+
+User-Agent: xovi
+Disallow: /private/*
+

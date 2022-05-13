@@ -1,7 +1,7 @@
 posttemplate=$(cat "post-template.xml.dontchange")
 fname=$1
 read -p "Enter post title: " rssposttitle
-rsspostauthor="nodemixaholic@nodemixaholic.com"
+read -p "Enter post author email: " rsspostauthor
 read -p "Press ENTER to use nano to enter post contents..."
 randomfn="/tmp/post-content-$RANDOM"
 nano $randomfn

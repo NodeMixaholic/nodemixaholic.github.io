@@ -1,0 +1,14 @@
+a { color:#FFFFFF; } 
+a:visited { color:#FFFFFF; } 
+a:active { color:#FFFFFF; } 
+a:hover { color:#FFFFFF; } 
+body { background-color:#000000; padding:0;  margin: 0; }
+.textstyle1 { text-align:left; }
+#container_e4bf9ac { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:116px; background-color:#000000;  }
+#container_e4bf9ac_padding { margin: 10px; display: block;  }
+.textstyle2 { text-align:center; }
+.textstyle3 { font-size:12pt; font-family:Arial, Helvetica, sans-serif; color:#A00C0C;  }
+@media only screen and (max-width: 640px)
+{
+		#container_e4bf9ac * span { font-size:12pt;  }
+}
