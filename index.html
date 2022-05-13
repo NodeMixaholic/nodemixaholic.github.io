@@ -7,12 +7,13 @@
 	<title>NodeMixaholic</title>
 	<link rel="stylesheet" type="text/css" href="index_html.css">
 	<script>
-		//Good, simple implementation of a Beaumont radio station (KYKR 95.1)
+		//Good, simple implementation of Texas Roadhouse theme.
 		var patchCheck = false
 		function onPatchMClick() {
 			if (patchCheck == false) {
-				var audio = new Audio('https://stream.revma.ihrhls.com/zc2205');
+				let audio = new Audio('txrh.mp3');
 				audio.play();
+				audio.loop = true;
 				document.getElementById("pmannoyance").textContent = "🤡I warned you.🤡"
 				patchCheck = true
 			}
